@@ -31,7 +31,7 @@ To then start the server:
 ./init.sh
 ```
 
-Navigate to http://127.0.0.1:/docs in your browser to try it out.
+Navigate to http://127.0.0.1:8000/docs in your browser to try it out.
 The first request will be quite slow as the tensorflow embedding model takes a while to initialise.
 Subsequent requests should be handled quite quickly.
 
