@@ -1,6 +1,7 @@
 # Ask Currency API
 
 This is a simple implementation of an API that powers the Ask Currency bot in HENI's discord server.
+Join the HENI Discord Server to see it in action! https://discord.com/invite/98SrzyMmbZ
 
 All of the titles are embedded into a vector space using the Universal Sentence Encoder from Tensorflow hub (https://tfhub.dev/google/universal-sentence-encoder-large/4).
 A KNeighborsClassifier is then built using scikit-learn (https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html).
